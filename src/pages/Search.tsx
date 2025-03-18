@@ -35,6 +35,10 @@ export function Search({ search, setSearch, filteredItems }: SearchProps) {
                         lineHeight: "21px",
                         letterSpacing: "0%",
                         color: "#F5F5F5",
+                        "& input::placeholder": {
+                            color: "#F5F5F5",
+                            opacity: 1,
+                        },
                     }}
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
