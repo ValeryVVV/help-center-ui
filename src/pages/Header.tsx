@@ -6,7 +6,7 @@ import headerLogo from "../img/headerLogo/logo.svg";
 
 export function Header() {
     return (
-        <Box sx={{ padding: "20px" }}>
+        <Box sx={{ padding: "20px 20px 0px 20px" }}>
             <Box
                 sx={{
                     display: "flex",
