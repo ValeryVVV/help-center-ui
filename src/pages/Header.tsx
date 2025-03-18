@@ -1,8 +1,8 @@
 import { Avatar, AvatarGroup, Box, Typography } from "@mui/material";
-import headerLogo from "../img/headerLogo/logo.svg";
 import firstUserAvatar from "../img/headerAvatar/firstUserAvatar.png";
 import secondUserAvatar from "../img/headerAvatar/secondUserAvatar.png";
 import thirdUserAvatar from "../img/headerAvatar/thirdUserAvatar.png";
+import headerLogo from "../img/headerLogo/logo.svg";
 
 export function Header() {
     return (

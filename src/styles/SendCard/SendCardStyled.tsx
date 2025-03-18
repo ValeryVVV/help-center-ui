@@ -1,4 +1,4 @@
-import { Card, styled } from "@mui/material";
+import { Card, styled, Typography } from "@mui/material";
 
 export const SendCardStyled = styled(Card)({
     background: "#1B1E22",
@@ -14,4 +14,22 @@ export const SendCardStyled = styled(Card)({
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
+});
+
+export const SendCardTextStyled = styled(Typography)({
+    fontFamily: "Inter, Arial, sans-serif",
+    fontWeight: 600,
+    fontSize: "14px",
+    lineHeight: "21px",
+    letterSpacing: "0%",
+    color: "#F5F5F5",
+});
+
+export const ReplyCardTextStyled = styled(Typography)({
+    fontFamily: "Inter, Arial, sans-serif",
+    fontWeight: 400,
+    fontSize: "14px",
+    lineHeight: "21px",
+    letterSpacing: "0%",
+    color: "#83838D",
 });

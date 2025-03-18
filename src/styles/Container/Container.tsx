@@ -13,7 +13,7 @@ export const StyledContainer = styled(Container)({
 export const StyledPaper = styled(Paper)({
     padding: "16px",
     borderRadius: "16px",
-    background: "linear-gradient(180deg, #0B0B0F 0%, #1A1A22 90%)",
+    background: "linear-gradient(180deg, #162526 0%, #1A1A22 90%)",
     maxWidth: "400px",
     minWidth: "400px",
     width: "100%",

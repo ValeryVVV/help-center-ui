@@ -1,6 +1,6 @@
 import { createTheme } from "@mui/material";
 
-export const theme = createTheme({
+export const lightTheme = createTheme({
     typography: {
         fontFamily: "SF Pro Display, Arial, sans-serif",
         h1: {
@@ -10,9 +10,6 @@ export const theme = createTheme({
             letterSpacing: "0%",
         },
     },
-});
-
-export const lightTheme = createTheme({
     palette: {
         mode: "light",
         primary: {
@@ -22,14 +19,19 @@ export const lightTheme = createTheme({
             default: "#F5F5F5",
             paper: "#FFFFFF",
         },
-        text: {
-            primary: "#000000",
-            secondary: "#555555",
-        },
     },
 });
 
 export const darkTheme = createTheme({
+    typography: {
+        fontFamily: "SF Pro Display, Arial, sans-serif",
+        h1: {
+            fontWeight: 700,
+            fontSize: "32px",
+            lineHeight: "38px",
+            letterSpacing: "0%",
+        },
+    },
     palette: {
         mode: "dark",
         primary: {
@@ -38,10 +40,6 @@ export const darkTheme = createTheme({
         background: {
             default: "#0B0B0F",
             paper: "#1A1A22",
-        },
-        text: {
-            primary: "#FFFFFF",
-            secondary: "#A0A0A0",
         },
     },
 });
